@@ -1,3 +1,11 @@
+const String imgPath='assets/images';
+class ImgAssets{
+
+  static String sobhan='$imgPath/sobhan.png';
+
+}
+
+
 class AssetsManager {
   static const String root = "assets/images/";
   static const String splash = "splash.png";
