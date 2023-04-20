@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:shose_ecommerce/view/account_setting.dart';
 import 'package:shose_ecommerce/view/foget_password.dart';
 import 'package:shose_ecommerce/view/home.dart';
 import 'package:shose_ecommerce/view/profile.dart';
+import 'package:shose_ecommerce/view/search.dart';
 import 'package:shose_ecommerce/view/sign_up.dart';
 
 class ShoseEcommerce extends StatelessWidget {
@@ -10,7 +12,7 @@ class ShoseEcommerce extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "ShoseEcommerce",
-      home: Profile(),
+      home: AccountSetting(),
     );
   }
 }
