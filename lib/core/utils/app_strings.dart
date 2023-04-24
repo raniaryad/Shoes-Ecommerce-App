@@ -11,9 +11,11 @@ class AppStrings {
       "Ament Minim Lit Nodeseru Saku Nandu sit Alique Dolor";
   static const String get_started = "Get Started";
   static const String next = "next";
+  static const String nike = "nike";
   static const String addToCart = "Add To Cart";
   static const String price = "Price";
   static const String size = "Size";
+  static const String seeAll = "See All";
   static const String gallery = "Gallery";
   static const String mensLocation = "Men's Location";
   static const String bestChoice = "Best Choice";

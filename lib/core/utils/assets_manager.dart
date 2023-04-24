@@ -1,11 +1,3 @@
-const String imgPath='assets/images';
-class ImgAssets{
-
-  static String sobhan='$imgPath/sobhan.png';
-
-}
-
-
 class AssetsManager {
   static const String root = "assets/images/";
   static const String splash = "splash.png";
@@ -25,4 +17,9 @@ class AssetsManager {
   static const String bottomNavigationBar = "bottom_navigation_bar.png";
   static const String underArmour = "under_armour.png";
   static const String underImage = "underImage.png";
+  static const String nikeBackground = "nike_background.png";
+  static const String converse = "converse.png";
+  static const String shoes7 = "shoes7.png";
+  static const String shoes8 = "shoes8.png";
+  static const String shoes9 = "shoes9.png";
 }

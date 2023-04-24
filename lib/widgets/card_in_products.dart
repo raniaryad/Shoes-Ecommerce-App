@@ -25,7 +25,7 @@ cardInProducts(String image, String name, String price, Color color1) {
             ),
             const Text(
               AppStrings.bestSallers,
-              style: TextStyle(color:  AppColors.secondTextColor),
+              style: TextStyle(color: AppColors.mainColor),
             ),
             SizedBox(
               height: 8,

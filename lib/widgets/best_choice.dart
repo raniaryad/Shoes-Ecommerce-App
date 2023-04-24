@@ -13,15 +13,24 @@ bestChoice() {
       Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const [
-          Text(AppStrings.bestChoice,style: TextStyle(fontSize: 20,color:  AppColors.mainColor),),
+          Text(
+            AppStrings.bestChoice,
+            style: TextStyle(fontSize: 20, color: AppColors.mainColor),
+          ),
           SizedBox(
             height: 10,
           ),
-          Text("Nike Air Jordan",style: TextStyle(fontSize: 17,)),
+          Text("Nike Air Jordan",
+              style: TextStyle(
+                fontSize: 17,
+              )),
           SizedBox(
             height: 10,
           ),
-          Text("450.65",style: TextStyle(fontSize: 17,))
+          Text("\$ 450.65",
+              style: TextStyle(
+                fontSize: 17,
+              ))
         ],
       ),
       Image.asset(
