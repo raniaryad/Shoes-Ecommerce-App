@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shose_ecommerce/view/account_setting.dart';
+import 'package:shose_ecommerce/view/bestseler.dart';
 import 'package:shose_ecommerce/view/details.dart';
 import 'package:shose_ecommerce/view/foget_password.dart';
 import 'package:shose_ecommerce/view/home.dart';
