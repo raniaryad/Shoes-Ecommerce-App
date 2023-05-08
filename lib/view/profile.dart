@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shose_ecommerce/view/side_menu.dart';
 
 import '../core/utils/app_colors.dart';
 import '../core/utils/assets_manager.dart';
@@ -31,8 +32,8 @@ class _ProfileState extends State<Profile> {
                 borderRadius: BorderRadius.circular(30),
               ),
               onPressed: () {
-                /* Navigator.pushReplacement(context,
-                    MaterialPageRoute(builder: (context) => SideMenue()));*/
+                 Navigator.pushReplacement(context,
+                    MaterialPageRoute(builder: (context) => SideMenue()));
               },
               child: Icon(
                 Icons.keyboard_arrow_left,
@@ -74,9 +75,8 @@ class _ProfileState extends State<Profile> {
                             child: ClipRRect(
                                 borderRadius: BorderRadius.circular(100),
 
-                                // child: Image.asset(ImgAssets.sobhan))),
-                                child:
-                                    Image.asset("assets/images/sobhan.png"))),
+                                 child: Image.asset(ImgAssets.sobhan))),
+                            //    child:Image.asset("assets/images/sobhan.png"))),
                         Positioned(
                             bottom: 0,
                             right: 47,

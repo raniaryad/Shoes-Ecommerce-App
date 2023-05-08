@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shose_ecommerce/view/home.dart';
 import 'package:shose_ecommerce/view/profile.dart';
 
 import '../core/utils/app_colors.dart';
@@ -43,9 +44,8 @@ class _SideMenueState extends State<SideMenue> {
             currentAccountPicture: CircleAvatar(
               backgroundColor: Color(0xffc5eeee),
               child: ClipOval(
-                  // child: Image.asset(ImgAssets.sobhan ,
-                  child: Image.asset(
-                "assets/images/sobhan.png",
+                   child: Image.asset(ImgAssets.sobhan ,
+                //  child: Image.asset( "assets/images/sobhan.png",
                 width: 90,
                 height: 90,
                 fit: BoxFit.cover,
@@ -81,8 +81,8 @@ class _SideMenueState extends State<SideMenue> {
                   fontWeight: FontWeight.w300,
                 )),
             onTap: () {
-              /*Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) => Home())); */
+              Navigator.pushReplacement(context,
+                MaterialPageRoute(builder: (context) => Home())); 
             },
           ),
 
@@ -161,8 +161,8 @@ class _SideMenueState extends State<SideMenue> {
                   fontWeight: FontWeight.w300,
                 )),
             onTap: () {
-              /*Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) => Profile())); */
+              Navigator.pushReplacement(context,
+                MaterialPageRoute(builder: (context) => Home())); 
             },
           ),
         ],

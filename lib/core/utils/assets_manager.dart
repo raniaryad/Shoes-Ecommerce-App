@@ -23,3 +23,11 @@ class AssetsManager {
   static const String shoes8 = "shoes8.png";
   static const String shoes9 = "shoes9.png";
 }
+
+
+const String imgPath='assets/images';
+class ImgAssets{
+
+  static String sobhan='$imgPath/sobhan.png';
+
+}
