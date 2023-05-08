@@ -162,7 +162,7 @@ class _SideMenueState extends State<SideMenue> {
                 )),
             onTap: () {
               Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) => Home())); 
+                MaterialPageRoute(builder: (context) =>  Home())); 
             },
           ),
         ],

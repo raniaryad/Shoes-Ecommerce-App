@@ -16,7 +16,7 @@ class ShoseEcommerce extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "ShoseEcommerce",
-      home:Profile(),
+      home:SideMenue(),
     );
   }
 }
