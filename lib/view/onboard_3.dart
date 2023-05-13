@@ -5,7 +5,6 @@ import 'package:shose_ecommerce/view/sign_in.dart';
 
 import '../core/utils/app_colors.dart';
 
-
 class Onboard_3 extends StatefulWidget {
   const Onboard_3({super.key});
 
@@ -26,35 +25,35 @@ class _Onboard_3State extends State<Onboard_3> {
                 child: Stack(
               children: [
                 Positioned(
-                  top: 100,
-                  left: 45,
+                    top: 100,
+                    left: 45,
                     child: Container(
-                  width: 20,
-                  height: 20,
-                  decoration: BoxDecoration(
-                      color: AppColors.mainColor,
-                      borderRadius: BorderRadius.circular(25)),
-                )),
+                      width: 20,
+                      height: 20,
+                      decoration: BoxDecoration(
+                          color: AppColors.mainColor,
+                          borderRadius: BorderRadius.circular(25)),
+                    )),
                 Positioned(
-                  bottom: 50,
-                  left: 20,
+                    bottom: 50,
+                    left: 20,
                     child: Container(
-                  width: 20,
-                  height: 20,
-                  decoration: BoxDecoration(
-                      color: AppColors.mainColor,
-                      borderRadius: BorderRadius.circular(25)),
-                )),
-                 Positioned(
-                  bottom: 80,
-                  right: 50,
+                      width: 20,
+                      height: 20,
+                      decoration: BoxDecoration(
+                          color: AppColors.mainColor,
+                          borderRadius: BorderRadius.circular(25)),
+                    )),
+                Positioned(
+                    bottom: 80,
+                    right: 50,
                     child: Container(
-                  width: 20,
-                  height: 20,
-                  decoration: BoxDecoration(
-                      color: AppColors.mainColor,
-                      borderRadius: BorderRadius.circular(25)),
-                )),
+                      width: 20,
+                      height: 20,
+                      decoration: BoxDecoration(
+                          color: AppColors.mainColor,
+                          borderRadius: BorderRadius.circular(25)),
+                    )),
                 Container(
                     margin: EdgeInsets.all(12),
                     child: Center(
@@ -63,8 +62,8 @@ class _Onboard_3State extends State<Onboard_3> {
                 Center(
                   child: Transform.rotate(
                     angle: -0.3,
-                    child: Image.asset(AssetsManager.root +
-                        AssetsManager.third_get_started),
+                    child: Image.asset(
+                        AssetsManager.root + AssetsManager.third_get_started),
                   ),
                 ),
               ],
@@ -85,7 +84,8 @@ class _Onboard_3State extends State<Onboard_3> {
                   ),
                   const Text(
                     AppStrings.desc_third_get_started,
-                    style: TextStyle(fontSize: 20, color: AppColors.secondTextColor),
+                    style: TextStyle(
+                        fontSize: 20, color: AppColors.secondTextColor),
                   ),
                   const SizedBox(
                     height: 30,
@@ -109,7 +109,7 @@ class _Onboard_3State extends State<Onboard_3> {
                             width: 10,
                             height: 10,
                             decoration: BoxDecoration(
-                                color:  AppColors.secondTextColor,
+                                color: AppColors.secondTextColor,
                                 borderRadius: BorderRadius.circular(25)),
                           ),
                           const SizedBox(
@@ -119,7 +119,7 @@ class _Onboard_3State extends State<Onboard_3> {
                             width: 30,
                             height: 10,
                             decoration: BoxDecoration(
-                                color:AppColors.mainColor,
+                                color: AppColors.mainColor,
                                 borderRadius: BorderRadius.circular(25)),
                           ),
                         ],

@@ -7,7 +7,6 @@ import 'package:shose_ecommerce/view/home.dart';
 
 import '../core/utils/app_colors.dart';
 
-
 class Onboard_1 extends StatefulWidget {
   const Onboard_1({super.key});
 
@@ -28,35 +27,35 @@ class _Onboard_1State extends State<Onboard_1> {
                 child: Stack(
               children: [
                 Positioned(
-                  top: 100,
-                  left: 45,
+                    top: 100,
+                    left: 45,
                     child: Container(
-                  width: 20,
-                  height: 20,
-                  decoration: BoxDecoration(
-                      color: AppColors.mainColor,
-                      borderRadius: BorderRadius.circular(25)),
-                )),
+                      width: 20,
+                      height: 20,
+                      decoration: BoxDecoration(
+                          color: AppColors.mainColor,
+                          borderRadius: BorderRadius.circular(25)),
+                    )),
                 Positioned(
-                  bottom: 50,
-                  left: 20,
+                    bottom: 50,
+                    left: 20,
                     child: Container(
-                  width: 20,
-                  height: 20,
-                  decoration: BoxDecoration(
-                      color: AppColors.mainColor,
-                      borderRadius: BorderRadius.circular(25)),
-                )),
-                 Positioned(
-                  bottom: 80,
-                  right: 50,
+                      width: 20,
+                      height: 20,
+                      decoration: BoxDecoration(
+                          color: AppColors.mainColor,
+                          borderRadius: BorderRadius.circular(25)),
+                    )),
+                Positioned(
+                    bottom: 80,
+                    right: 50,
                     child: Container(
-                  width: 20,
-                  height: 20,
-                  decoration: BoxDecoration(
-                      color: AppColors.mainColor,
-                      borderRadius: BorderRadius.circular(25)),
-                )),
+                      width: 20,
+                      height: 20,
+                      decoration: BoxDecoration(
+                          color: AppColors.mainColor,
+                          borderRadius: BorderRadius.circular(25)),
+                    )),
                 Container(
                     margin: EdgeInsets.all(12),
                     child: Center(
